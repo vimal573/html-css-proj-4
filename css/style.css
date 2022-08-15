@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  max-width: 134rem;
+}
+
+/* Navbar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6rem 4.8rem;
+}
+
+.navbar-container div img {
+  height: 4rem;
+  margin-right: 4.8rem;
+}
+
+.grow-list {
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 2.8rem;
+}
+
+.list-item {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #23212168;
+}
+
+.list-item:first-child {
+  color: #222;
+}
+
+.nav-button {
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #6f4abe;
+  border: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+}
+
+/* Banner */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7rem;
+}
+
+.heading-text {
+  font-size: 5.6rem;
+  font-weight: 600;
+  color: #120e43;
+  line-height: 1.1;
+}
+
+.heading-text span {
+  color: #6f4abe;
+}
+
+.description {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #23212168;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.7;
+}
+
+.btn {
+  margin-left: 0.5rem;
+  padding: 1.4rem 2.8rem;
+}
+
+.banner-container div img {
+  height: 50rem;
+  width: 75rem;
+}
